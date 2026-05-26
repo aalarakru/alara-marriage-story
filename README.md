@@ -4,10 +4,10 @@ This project uses monthly marriage statistics from TÜİK (Turkish Statistical I
 
 ## Data
 
-- **Source:** TÜİK — Marriages by Province and Month (*İl ve aya göre evlenmeler*)
+- **Source:** TÜİK — Marriages by Province and Month
 - **Coverage:** January 2001 – December 2025
 - **Frequency:** Monthly
-- **Variable:** Total number of marriages in Turkey (aggregated from provincial data)
+- **Variable:** Total number of marriages in Turkey 
 
 ## Models Used
 
@@ -33,17 +33,6 @@ This project uses monthly marriage statistics from TÜİK (Turkish Statistical I
 ├── 03_ets_model.R         # ETS & Holt-Winters models, STL decomposition
 ├── 04_compare_forecast.R  # Model comparison, ensemble, final forecast
 └── İl ve aya göre evlenmeler.xls  # Raw data from TÜİK
-```
-
-## How to Run
-
-1. Place all `.R` files and the `.xls` file in the same folder
-2. Open R Console and set working directory to that folder
-3. Run:
-
-```r
-options(repos = c(CRAN = "https://cran.r-project.org"))
-source("00_calistir.R")
 ```
 
 ## Requirements
